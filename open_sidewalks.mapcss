@@ -14,7 +14,7 @@ way[footway=crossing] {
     color: blue;
 }
 
-way[footway=sidewalk] {
+way[footway=sidewalk],way[sidewalk=*] {
     width: 5;
     color: green;
 }
